@@ -22,4 +22,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapGet("/", () => "Hello World!");
+
+app.MapGet("/teste-get", () => "Acesse /swagger para mais informações");
+
 app.Run();
