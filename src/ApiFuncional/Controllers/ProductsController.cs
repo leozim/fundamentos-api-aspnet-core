@@ -33,7 +33,8 @@ public class ProductsController : ControllerBase
     {
         _context.Products.Add(product);
         await _context.SaveChangesAsync();
-
+        
+        // retorna um 201Created e gera um link dando a opção para o user acessar o recurso através da API
         return CreatedAtAction("Get", new Product {Id = product.Id}, product);
     }
 
