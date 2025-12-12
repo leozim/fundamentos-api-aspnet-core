@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ApiFuncional.Controllers;
 
-[ApiController]
 [Route("api/products")]
 public class ProductsController : ControllerBase
 {
