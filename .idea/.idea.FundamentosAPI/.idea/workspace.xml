@@ -16,8 +16,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92416741-c79a-4477-aaba-c5868a631b15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/AppMvcFuncional.1sPJ0w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/AppMvcFuncional.1sPJ0w/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/AppMvcFuncional.1sPJ0w/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/EFCoreIntroDB.6gvbIQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/EFCoreIntroDB.6gvbIQ/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/EFCoreIntroDB.6gvbIQ/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/FundamentosAspnetMVC.vZkJoA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/FundamentosAspnetMVC.vZkJoA/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/FundamentosAspnetMVC.vZkJoA/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/master.YiqNvw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/master.YiqNvw/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/master.YiqNvw/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/model.KfszBg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/model.KfszBg/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/model.KfszBg/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/msdb.pEgzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/msdb.pEgzAA/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/msdb.pEgzAA/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/tempdb.Uqu0yw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/tempdb.Uqu0yw/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14/storage_v2/_src_/database/tempdb.Uqu0yw/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/dataSources/9bb5b6f9-ed37-4b77-a9a5-1d0078c54e14.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FundamentosAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApiFuncional/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiFuncional/Controllers/AuthController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiFuncional/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiFuncional/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApiFuncional/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiFuncional/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +68,15 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5193ddcc14a4d92251c449112fcdfbb6bfbaa7c61db3c48831c2d54831fddf/SignInManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ab3c8be2195122efa7fdf652df26d8a03a51ccb73e2f26d7ad3e76e4e852d/StringLengthAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ApiFuncional/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/ApiFuncional/Controllers/ProductsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/ApiFuncional/Data/ApiDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ApiFuncional/Models/JwtSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ApiFuncional/Models/LoginUserViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/ApiFuncional/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ApiFuncional/Models/RegisterUserViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/PrimeiraApi/Controllers/TesteController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/PrimeiraApi/Models/Aluno.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -63,7 +94,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.ApiFuncional: https.executor": "Run",
+    ".NET Launch Settings Profile.ApiFuncional: https.executor": "Debug",
     ".NET Launch Settings Profile.PrimeiraApi: IIS Express.executor": "Run",
     ".NET Launch Settings Profile.PrimeiraApi: https.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -237,6 +268,10 @@
       <workItem from="1765071467217" duration="42000" />
       <workItem from="1765299650314" duration="9597000" />
       <workItem from="1765384665130" duration="8844000" />
+      <workItem from="1765445294930" duration="6789000" />
+      <workItem from="1765468811625" duration="2874000" />
+      <workItem from="1765542793905" duration="8496000" />
+      <workItem from="1765554924423" duration="4327000" />
     </task>
     <servers />
   </component>
@@ -244,6 +279,12 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="dotnet:Microsoft.Identity.Client" />
+    <option featureType="dependencySupport" implementationName="dotnet:Microsoft.EntityFrameworkCore.Abstractions" />
+    <option featureType="dependencySupport" implementationName="dotnet:Microsoft.EntityFrameworkCore.Relational" />
+    <option featureType="dependencySupport" implementationName="dotnet:Microsoft.EntityFrameworkCore" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

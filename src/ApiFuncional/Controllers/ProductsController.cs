@@ -1,10 +1,13 @@
 ﻿using ApiFuncional.Data;
 using ApiFuncional.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiFuncional.Controllers;
 
+[Authorize]
+[ApiController]
 [Route("api/products")]
 public class ProductsController : ControllerBase
 {
@@ -14,7 +17,8 @@ public class ProductsController : ControllerBase
     {
         _context = context;
     }
-
+    
+    [AllowAnonymous]
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status200OK)]
@@ -109,7 +113,8 @@ public class ProductsController : ControllerBase
         
         return NoContent();
     }
-
+    
+    [Authorize(Roles = "Admin")]
     [HttpDelete("{id:int}")]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]

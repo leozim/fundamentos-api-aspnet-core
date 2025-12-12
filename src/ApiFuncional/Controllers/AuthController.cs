@@ -1,6 +1,8 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 using ApiFuncional.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -45,7 +47,7 @@ public class AuthController : ControllerBase
         if (result.Succeeded)
         {
             await _signInManager.SignInAsync(user, false);
-            return Ok(GenerateJwt());
+            return Ok(await GenerateJwt(user.Email));
         }
 
         return Problem("Falha ao registrar usuário");
@@ -62,19 +64,34 @@ public class AuthController : ControllerBase
 
         if (result.Succeeded)
         {
-            return Ok(GenerateJwt());
+            return Ok(await GenerateJwt(loginUser.Email));
         }
         
         return Problem("Usuário ou senha incorretos");
     }
 
-    private string GenerateJwt()
+    private async Task<string> GenerateJwt(string email)
     {
+        var user = await _userManager.FindByEmailAsync(email);
+        var roles = await _userManager.GetRolesAsync(user);
+
+        var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, user.UserName)
+        };
+        
+        // Adicionar roles como claims
+        foreach(var role in roles)
+        {
+            claims.Add(new Claim(ClaimTypes.Role, role));
+        }
+        
         var tokenHandler = new JwtSecurityTokenHandler();
         var key = Encoding.ASCII.GetBytes(_jwtSettings.Secret);
 
         var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
         {
+            Subject = new ClaimsIdentity(claims),
             Issuer = _jwtSettings.Issuer,
             Audience = _jwtSettings.Audience,
             Expires = DateTime.UtcNow.AddHours(_jwtSettings.ExpirationHours),
