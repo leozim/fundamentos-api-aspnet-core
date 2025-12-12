@@ -1,6 +1,10 @@
+using System.Text;
 using ApiFuncional.Data;
+using ApiFuncional.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +23,33 @@ builder.Services.AddDbContext<ApiDbContext>(options =>
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApiDbContext>();
+
+var JwtSettingsSection = builder.Configuration.GetSection("JwtSettings");
+builder.Services.Configure<JwtSettings>(JwtSettingsSection);
+
+var jwtSettings = JwtSettingsSection.Get<JwtSettings>();
+
+if (string.IsNullOrEmpty(jwtSettings?.Secret)) throw new Exception("The JWT secret was not found in the configuration file.");
+
+var key = Encoding.ASCII.GetBytes(jwtSettings.Secret);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = true;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidAudience = jwtSettings.Audience,
+        ValidIssuer = jwtSettings.Issuer
+    };
+});
 
 var app = builder.Build();
 
