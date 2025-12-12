@@ -1,6 +1,7 @@
 ﻿using ApiFuncional.Data;
 using ApiFuncional.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,6 +20,7 @@ public class ProductsController : ControllerBase
     }
     
     [AllowAnonymous]
+    // [EnableCors("Production")]
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status200OK)]
